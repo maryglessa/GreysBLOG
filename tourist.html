@@ -1,244 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="tourist.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tourist.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>TOURIST-SPOT</title>
 </head>
-<body>
-   <button type="button" class="back-btn"><a href="blog.html"> back</a></button>
-    <div class="container">
-        
-        <h1> TOURIST-SPOT</h1>
-<!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+   
 
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
-  </div>
-  
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="image1.jpg" alt="Los Angeles" class="d-block" width="100%" height="345" >
-      <div class="carousel-caption">
-        <h3>10,000 ROSES</h3>
-        <p>We had such a great time in LA!</p>
-        <button type="button" class="tenki-btn"><a href="#tenki">click</a></button>
-      </div>
-    </div>
+<body>
+    <button type="button" class="back-btn"><a href="blog.html"> back</a></button>
+    <div class=" container">
+            <h1 class="title">TOURIST-SPOT</h1>
+            <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="tenki.jpg">
+                    <img src="tenki.jpg" width="600" height="400">
+                  </a>
+                  <div class="desc">10,000 roses</div>
+                </div>
+              </div>
+              
+              
+              <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="parola.jpg">
+                    <img src="parola.jpg" alt="Forest" width="600" height="400">
+                  </a>
+                  <div class="desc">PAROLA </div>
+                </div>
+              </div>
+              
+              <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="bantayan.jpg">
+                    <img src="bantayan.jpg"  width="600" height="400">
+                  </a>
+                  <div class="desc">BANTAYAN BAY</div>
+                </div>
+              </div>
+              
+              <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="centennial.jpg">
+                    <img src="centennial.jpg"width="600" height="700">
+                  </a>
+                  <div class="desc">CENTENNIAL ROAD</div>
+                </div>
+              </div>
+
+              <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="church.jpg">
+                    <img src="church.jpg"width="600" height="700">
+                  </a>
+                  <div class="desc">SAN ROQUE PARISH</div>
+                </div>
+              </div>
+              
+              <div class="clearfix"></div>
+              
+              <div style="padding:6px;">
+                <p class="brief-description">Explore and Experience Cordova's cool 10,000 roses, eat yummy food at Parola Restaurant near Bantayan Bay, enjoy pretty views on Centennial Road and don't forget the  beauty of San Roque Chapel Let's explore this awesome spot together!"</p>    
+        </div> <hr>
+
+        <div class="container">
+
+    <!-- Carousel -->
+    <div id="demo1" class="carousel slide" data-bs-ride="carousel">
     
-    <div class="carousel-item">
-      <img src="image2.jpg" alt="Chicago" class="d-block" width="100%" height="345" >
-      <div class="carousel-caption">
-        <h3>PAROLA SEAVIEW RESTAURANT</h3>
-        <p>Thank you, Chicago!</p>
-        <button type="button" class="parolass-btn"><a href="#parola">click</a></button>
-      </div> 
-    </div>
-    
-    <div class="carousel-item">
-      <img src="image3.jpg" alt="New York" class="d-block" width="100%" height="345" >
-      <div class="carousel-caption">
-        <h3>BATAYAN</h3>
-        <p>We love the Big Apple!</p>
-        <button type="button" class="bantayan-btn"><a href="#bantayan">click</a></button>
-      </div> 
-    </div>
-    
-    <div class="carousel-item">
-        <img src="roses.jpg" alt="New York" class="d-block" width="100%" height="345" >
-        <div class="carousel-caption">
-          <h3>BATAYAN</h3>
-          <p>We love the Big Apple!</p>
-          <button type="button" class="bantayan-btn"><a href="#bantayan">click</a></button>
-        </div> 
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo1" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#demo1" data-bs-slide-to="4"></button>
       </div>
       
-      <div class="carousel-item">
-        <img src="parola4.jpg" alt="New York" class="d-block" width="100%" height="345" >
-        <div class="carousel-caption">
-          <h3>BATAYAN</h3>
-          <p>We love the Big Apple!</p>
-          <button type="button" class="bantayan-btn"><a href="#bantayan">click</a></button>
-        </div> 
-      </div>
-  </div>
-  
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-
-<div class="container mt-3">
-  <h3>Carousel Example</h3>
-  <p>The following example shows how to create a basic carousel with indicators and controls.</p>
-</div>
-</div>  
- <div class=" container-fluid">
-    <div id="tenki">
-        <h3 class="number1">1.10,000 ROSES</h3>
-        <div class="responsive">
-            <div class="gallery">
-              <a target="_blank" href="roses.jpg">
-                <img src="roses.jpg" width="600" height="400">
-              </a>
-              <div class="desc">10,000 roses</div>
-            </div>
-          </div>
-          
-          
-          <div class="responsive">
-            <div class="gallery">
-              <a target="_blank" href="tenki2.jpg">
-                <img src="tenki2.jpg" alt="Forest" width="600" height="400">
-              </a>
-              <div class="desc">here you can hang out or study while having coffee</div>
-            </div>
-          </div>
-          
-          <div class="responsive">
-            <div class="gallery">
-              <a target="_blank" href="tenki3.jpg">
-                <img src="tenki3.jpg"  width="600" height="400">
-              </a>
-              <div class="desc">here you can hang out or study while having coffee</div>
-            </div>
-          </div>
-          
-          <div class="responsive">
-            <div class="gallery">
-              <a target="_blank" href="tenki4.jpg">
-                <img src="tenki4.jpg"width="600" height="700">
-              </a>
-              <div class="desc">senset view to relax</div>
-            </div>
-          </div>
-          
-          <div class="clearfix"></div>
-          
-          <div style="padding:6px;">
-            <p> try to visit the 10,000 roses cafe in Day- as, Cordova is one of the popular tourist spot in municipality of cordova because to the beauty and glowing roses especially in the night.</p>
-            <p>
-              Para sa mahilig sa Instagram! Dito, puno ng kuhang maganda para sa iyong social media. Ang mga kumikislap na rosas ay nagbibigay ng magandang background para sa iyong mga selfies/picture.</p>
-              <h4>INSTAGRAMABLE PLACE✓</h4>
-              <h4>BEAUTIFUL SUNSET✓</h4>
-              <h4>RELAXING VIEW✓</h4>
-              <h4>DELICIOUS COFFEE AND BREAD✓</h4>
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="tenki1.jpg" alt="Los Angeles" class="d-block" width="100%" height="450" >
+          <div class="carousel-caption">
+            <h3>10,000 ROSES</h3>
             
           </div>
-                 <h4> OTHER INFORMATION</h4>   
+        </div>
+        
+        <div class="carousel-item">
+          <img src="tenki2.jpg" alt="Chicago" class="d-block" width="100%" height="450" >
+          <div class="carousel-caption">
+            <h3>10,000 ROSES</h3>
+           
+          </div> 
+        </div>
+        
+        <div class="carousel-item">
+          <img src="tenki3.jpg" alt="New York" class="d-block" width="100%" height="450" >
+          <div class="carousel-caption">
+            <h3>10,000 ROSES</h3>
+         
+          </div> 
+        </div>
+        
+        <div class="carousel-item">
+            <img src="tenki4.jpg" alt="New York" class="d-block" width="100%" height="450" >
+            <div class="carousel-caption">
+              <h3>10,000 ROSES</h3>
+             
+            </div> 
+          </div>
+          
+          <div class="carousel-item">
+            <img src="tenki5.jpg" alt="New York" class="d-block" width="100%" height="450" >
+            <div class="carousel-caption">
+              <h3>10,000 ROSES</h3>
+              
+         
+            </div> 
+          </div>
+      </div>
+      
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    
+    <div class="container mt-5">
+      <h3 class="first">1.10,000 ROSES</h3>
+      <p> try to visit the 10,000 roses cafe in Day- as, Cordova is one of the popular tourist spot in municipality of cordova because to the beauty and glowing roses especially in the night.</p>
+            <p>
+              Para sa mahilig sa Instagram! Dito, puno ng kuhang maganda para sa iyong social media. Ang mga kumikislap na rosas ay nagbibigay ng magandang background para sa iyong mga selfies/picture.</p>
+              <li>INSTAGRAMABLE PLACE✓</li>
+              <li>BEAUTIFUL SUNSET✓</li>
+              <li>RELAXING VIEW✓</li>
+              <li>DELICIOUS COFFEE AND BREAD✓</li>
+            
+          </div>
+                 <h4 > OTHER INFORMATION</h4>   
                <ul>
                 <li>entrance fee: 20pesos (if not from cordova)</li>
                 <p>  note: no entrance fee if from cordova but make sure that you have a valid id</p>
                  <li>Operating Hours: 10:00AM to 10:00PM</li>
                  <li>Exact Location: Day-as, Cordova, Cebu</li>
                </ul>
-          </div>
-       </div>
-    </div>
+            </div><hr>
+            <div class="container">
 
-    <div id="parola">
-        <h3>2. PAROLA SEAVIEW RESTAURANT</h3>
-        <div class="responsive">
-            <div class="gallery">
-              <a target="_blank" href="parola1.jpg">
-                <img src="parola1.jpg" width="600" height="400">
-              </a>
-              <div class="desc">PAROLA RESTAURANT</div>
-            </div>
-          </div>
-          
-          
-          <div class="responsive">
-            <div class="gallery">
-              <a target="_blank" href="/parola4.jpg">
-                <img src="parola4.jpg" alt="Forest" width="600" height="400">
-              </a>
-              <div class="desc">PAROLA</div>
-            </div>
-          </div>
-          
-          <div class="responsive">
-            <div class="gallery">
-              <a target="_blank" href="parola3.jpg">
-                <img src="parola3.jpg"  width="600" height="400">
-              </a>
-              <div class="desc">NICE AMBIANCE</div>
-            </div>
-          </div>
-          
-          <div class="responsive">
-            <div class="gallery">
-              <a target="_blank" href="parola2.jpg">
-                <img src="parola2.jpg"width="600" height="700">
-              </a>
-              <div class="desc">MENU</div>
-            </div>
-          </div>
-          
-          <div class="clearfix"></div>
-          
-          <div style="padding:6px;">
-             #parola
-             #restaurant
-             #seaview
-            <p>experience and visit parola seaview restaurant is perfect spot for a short escape to chill and relax,enjoy the sea, delicious and affordable dishes and relaxing vibe at parola resto. </p>
-              
-             <h3> why choose parola restaurant?</h3>
-             <h4>RELAXING PLACE AND NICE AMBIANCE✓</h4>
-             <p>Parola Reastaurant have a peaceful place, perfect for memorable dinning experience.</p>
-              <h4>DELICOUS FOOD✓</h4>
-              <p>have a fresh seafood and classic filipino dishes.</p>
-              <h4>PERFECT FOR CELEBRATION✓</h4>
-              <h4>friendly vibe✓</h4>
-              <p>Experience warm Filipino hospitality with Parola's friendly staff.</p>
-          
-          </div>
-          <h4> OTHER INFORMATION</h4>   
-          <ul>
-          <li>Service options: Has outdoor seating · Serves great cocktails · Has kids' menu</li>
-          <li>Phone: 0947 990 8561</li>
-          <li>Exact Location: Roro Port Cordova, Cordova, 6017 Cebu</li>
-           <h4>Operating Hours:</h4>
-           <li>Saturday & Sunday	10AM-9PM</li>
-           <li>Monday,Wednesday, Thursday	11AM-9PM</li>
-          </ul>
-          </div>
-    </div>
+                <!-- Carousel -->
+                <div id="demo2" class="carousel slide" data-bs-ride="carousel">
+                
+                  <!-- Indicators/dots -->
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo2" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo2" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo2" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo2" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#demo2" data-bs-slide-to="4"></button>
+                  </div>
+                  
+                  <!-- The slideshow/carousel -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="parola1.jpg" alt="Los Angeles" class="d-block" width="100%" height="600" >
+                      <div class="carousel-caption">
+                        <h3>PAROLA SEAVIEW RESTAURANT</h3>
+                    
+                      </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                      <img src="parola2.jpg" alt="Chicago" class="d-block" width="100%" height="600" >
+                      <div class="carousel-caption">
+                        <h3>PAROLA SEAVIEW RESTAURANT</h3>
+                        
+                      </div> 
+                    </div>
+                    
+                    <div class="carousel-item">
+                      <img src="parola3.jpg" alt="New York" class="d-block" width="100%" height="600" >
+                      <div class="carousel-caption">
+                        <h3>PAROLA SEAVIEW RESTAURANT</h3>
+                      
+                      </div> 
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="parola4.jpg" alt="New York" class="d-block" width="100%" height="600" >
+                        <div class="carousel-caption">
+                            <h3>PAROLA SEAVIEW RESTAURANT</h3>
+                          
+                        </div> 
+                      </div>
+                      
+                      <div class="carousel-item">
+                        <img src="parola5.jpg" alt="New York" class="d-block" width="100%" height="600" >
+                        <div class="carousel-caption">
+                            <h3>PAROLA SEAVIEW RESTAURANT</h3>
+                         
     
-    <div id="bantayan">
-        <h3>3. BANTAYAN</h3>
-        <p></p>
-    </div>
+                        </div> 
+                      </div>
+                  </div>
+                  
+                  <!-- Left and right controls/icons -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                </div> 
+                
+                <div class="container mt-5">
+                    <h3 class="sec">2. PAROLA SEAVIEW RESTAURANT</h3>  
+                      <p>experience and visit parola seaview restaurant is perfect spot for a short escape to chill and relax,enjoy the sea, delicious and affordable dishes and relaxing vibe at parola resto. </p>
+                        
+                       <h3> why choose parola restaurant?</h3>
+                       <h5>RELAXING PLACE AND NICE AMBIANCE✓</h5>
+                       <p>Parola Reastaurant have a peaceful place, perfect for memorable dinning experience.</p>
+                        <h5>DELICOUS FOOD✓</h5>
+                        <p>have a fresh seafood and classic filipino dishes.</p>
+                        <h5>PERFECT FOR CELEBRATION✓</h5>
+                        <h5>friendly vibe✓</h5>
+                        <p>Experience warm Filipino hospitality with Parola's friendly staff.</p>
+                    
+                    </div>
+                    <h4> OTHER INFORMATION</h4>   
+                    <ul>
+                    <li>Service options: Has outdoor seating · Serves great cocktails · Has kids' menu</li>
+                    <li>Phone: 0947 990 8561</li>
+                    <li>Exact Location: Roro Port Cordova, Cordova, 6017 Cebu</li>
+                     <h4>Operating Hours:</h4>
+                     <li>Saturday & Sunday	10AM-9PM</li>
+                     <li>Monday,Wednesday, Thursday	11AM-9PM</li>
+                    </ul>
+                    </div> <hr>
+                    <div class="container">
 
-    <div id="bantayan">
-        <h3>4. BANTAYAN</h3>
-        <p></p>
-    </div>
+                        <!-- Carousel -->
+                        <div id="demo3" class="carousel slide" data-bs-ride="carousel">
+                        
+                          <!-- Indicators/dots -->
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo3" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#demo3" data-bs-slide-to="1"></button>
+                            
+                           
+                          </div>
+                          
+                          <!-- The slideshow/carousel -->
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="bantayan1.jpg" alt="Los Angeles" class="d-block" width="100%" height="400" >
+                              <div class="carousel-caption">
+                                <h3>BANTAYAN BAY</h3>
+                                
+                              </div>
+                            </div>
+                            
+                            <div class="carousel-item">
+                              <img src="bantayan2.jpg" alt="Chicago" class="d-block" width="100%" height="400" >
+                              <div class="carousel-caption">
+                                <h3>BANTAYAN BAY</h3>
+                               
+                              </div> 
+                            </div>
+                          </div>
+                          
+                          <!-- Left and right controls/icons -->
+                          <button class="carousel-control-prev" type="button" data-bs-target="#demo3" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#demo3" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                          </button>
+                        </div> 
+                        
+                        <div class="container mt-5">
+                            <h3 class="sec">3. bantayan bay</h3> 
+                              <p>Bantayan Bay in Cordova, Cebu is a perfect chill spot with awesome views.</p>
+                              <h6>bantayan bay have :</h6>
+                               <li>perfect views✓</li>
+                                <li>relax place✓</li>
+                                <li>yummy seafood✓</li>
+                                <li>budget friendly✓</li> <br>
 
-    <div id="bantayan">
-        <h3>5. BANTAYAN</h3>
-        <p></p>
-    </div>
-    
+                                <p>have a perfect and fun experience at bantayan bay.Enjoy and lets explore this perfect spot together! </p> <br>
+                        
 
-    
-    
+                              <h4>Note:</h4>
+                              <p>no entrance fee but required to list your name</p>
+                              <p>no cottages are available but you can bring your own tents, table, chair and foods .</p>
+                            
+                            </div> <hr>
+                            <div class="container">
 
+                                <!-- Carousel -->
+                                <div id="demo4" class="carousel slide" data-bs-ride="carousel">
+                                
+                                  <!-- Indicators/dots -->
+                                  <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#demo4" data-bs-slide-to="0" class="active"></button>
+                                    <button type="button" data-bs-target="#demo4" data-bs-slide-to="1"></button>
+                           
+                                  </div>
+                                  
+                                  <!-- The slideshow/carousel -->
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <img src="image1.jpg" alt="Los Angeles" class="d-block" width="100%" height="400" >
+                                      <div class="carousel-caption">
+                                        <h3>10,000 ROSES</h3>
+                                        <p>We had such a great time in LA!</p>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="carousel-item">
+                                      <img src="image2.jpg" alt="Chicago" class="d-block" width="100%" height="400" >
+                                      <div class="carousel-caption">
+                                        <h3>10,000 ROSES</h3>
+                                        <p>Thank you, Chicago!</p>
+                                      </div> 
+                                    </div>
+                                        </div> 
+                                      </div>
+                                  </div>
+                                  
+                                  <!-- Left and right controls/icons -->
+                                  <button class="carousel-control-prev" type="button" data-bs-target="#demo4" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                  </button>
+                                  <button class="carousel-control-next" type="button" data-bs-target="#demo4" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                  </button>
+                                </div> 
+                                
+                                <div class="container mt-5">
+                                    <h3 class="sec">4. centennial road</h3> 
+                                    <p>discover cordova with a perfect and relaxing place on centennial road perfect for a simple and fun TOURIST-SPOT</p> 
+                                      <p>Start your morning with a nice view in Centennial Road . perfect spot to walking,jogging,cycling, zumba and have a rice soup, egg and lumpia.</p>
+                                      <p>hungry in cordova? <br> centennial Food Park has a lot of options for you!</p>
+                                      <h5>Centennial Road have:</h5>
+                                      <li>BBQ</li>
+                                      <li>Tuslob Buwa</li>
+                                      <li>soup</li>
+                                      <li>seafood</li>
+                                      <p>lot to choose from. you won't run out of option.</p>
+                                   
+                                    </div><hr>
 
- </div>
+                                    <div class="container">
+
+                                        <!-- Carousel -->
+                                        <div id="demo5" class="carousel slide" data-bs-ride="carousel">
+                                        
+                                          <!-- Indicators/dots -->
+                                          <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#demo5" data-bs-slide-to="0" class="active"></button>
+                                            <button type="button" data-bs-target="#demo5" data-bs-slide-to="1"></button>
+                                          </div>
+                                          
+                                          <!-- The slideshow/carousel -->
+                                          <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                              <img src="church.jpg" class="d-block" width="100%" height="500" >
+                                              <div class="carousel-caption">
+                                                <h3>SAN ROQUE PARISH CHURCH</h3>
+                                              </div>
+                                            </div>
+                                            
+                                            <div class="carousel-item">
+                                              <img src="church2.jpg"  class="d-block" width="100%" height="500" >
+                                              <div class="carousel-caption">
+                                                <h3>PLAZA</h3>
+                                              </div> 
+                                            </div>
+                                          </div>
+                                          
+                                          <!-- Left and right controls/icons -->
+                                          <button class="carousel-control-prev" type="button" data-bs-target="#demo5" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon"></span>
+                                          </button>
+                                          <button class="carousel-control-next" type="button" data-bs-target="#demo5" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon"></span>
+                                          </button>
+                                        </div> 
+                                        
+                                        <div class="container mt-5">
+                                            <h3 class="sec">5. san roque parish church</h3>  
+                                              <p>San Roque Parish church is my favorite place in cordova because of a calm and comfy place that's easy to love.</p>
+                                              <p>need time to think? <br> San Roque Church is a perfect  quiet place for personal reflection. </p>
+                                               <p>explore the beauty of san roque church and have fun at cordova plaza, perfect combo for a great day in cordova.</p>
+                                             <h4> Sunday Mass Schedule</h4>
+                                              <li> 5:30AM- BISAYA</li>
+                                              <li>8AM- BISAYA</li>
+                                              <li>10AM-ENGLISH</li>
+                                              <li>4PM-BISAYA</li>
+                                              <li>6PM-ENGLISH</li>
+                                                
+                                           
+                                            </div>
+                    
+         
+     
+</body>
+</html>
 </body>
 </html>
