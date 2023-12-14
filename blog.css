@@ -27,9 +27,9 @@ html {
 }
 
 #contact {
-    padding-top: 60px;
+    padding-top: 5px;
     width: 100%;
-    height: 300px;
+    height: 90px;
 }
 
 .navbar a:hover {
@@ -39,6 +39,77 @@ html {
 
 .offcanvas ul li a:hover {
     background-color: #f0f2f5;
+}
+
+div.gallery {
+    width: 90%;
+    float: left;
+    margin: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 5px rgba(0,0,0, 0.4);
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 450px;
+  }
+  
+  div.desc {
+    font-weight: bolder;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .container {
+    height: 100%;
+    margin-top: 8px;
+    padding-top: 5px;
+    background-color:#f0f2f5;
+}
+
+.title {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.history-cordova {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #f0f2f5;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 70px;
+  }
+
+#social-icons {
+    display: flex;
+    padding-top: 90px;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+#social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+h3 {
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 5px;
 }
 
 
