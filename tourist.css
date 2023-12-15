@@ -73,5 +73,6 @@ h6 {
 
 .carousel-item img {
     padding: 30px;
+    object-fit:cover;
     
 }
